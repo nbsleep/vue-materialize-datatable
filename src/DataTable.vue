@@ -81,13 +81,7 @@
 				</tr>
 
 				<template v-if="rows.length === 0 && loadingAnimation === true">
-					<tr v-for="n in (currentPerPage === -1 ? 10 : currentPerPage)"
-						:key="n"
-					>
-						<td :colspan="columns.length">
-							<tb-skeleton :height="15" theme="opacity" bg-color="#dcdbdc" shape="radius" />
-						</td>
-					</tr>
+					
 				</template>
 			</tbody>
 		</table>
