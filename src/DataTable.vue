@@ -557,6 +557,9 @@
 <style scoped>
 	div.material-table {
 		padding: 0;
+		width: auto;
+    		display: grid;
+	    	overflow-x: auto;
 	}
 
 	tr.clickable {
@@ -576,7 +579,7 @@
 	}
 
 	table {
-		table-layout: fixed;
+		table-layout: auto;
 	}
 
 	.table-header {
